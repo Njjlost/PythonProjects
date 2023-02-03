@@ -4,7 +4,7 @@ class Vector:
 
     def __str__(self):
         str1=""
-        index=0      #--------> ek khali str bani pir for loop ka use kiya str ko extend kiya pir index increase kiya
+        index=0      
         for i in self.vec1:
             str1 += f"{i}a{index}+"
             index +=1
@@ -24,7 +24,7 @@ class Vector:
     def __len__(self,vec1):
         return (len(self.vec1))
 v1=Vector([3,4,5])
-v2=Vector([3,8,9])
+v2=Vector([3,8,9])                         #Example
 print(v1+v2)
 print(v1*v2)
-print(len(v1.vec1)) #it prints the length of vector
+print(len(v1.vec1))                        #it prints the length of vector
